@@ -1,0 +1,49 @@
+// body {
+//   background-color: pink;
+// }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  min-height: 100vh;
+  background-color: pink;
+  background-image: url("../img/background-image.png");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  header .container {
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+  }
+  header {
+    //background-color: yellow;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  nav {
+    background-color: pink;
+  }
+  .social {
+    background-color: green;
+  }
+  img {
+    border: 1px solid red;
+  }
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
